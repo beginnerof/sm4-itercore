@@ -105,5 +105,5 @@ Makefile
 ## 后续（作品集可选）
 
 - [x] 挂到 `rv32i-minisoc`（`0x1000_0080`），CPU 汇编驱动，GM/T 0002 加解密回读 `PASS`
-- [ ] LibreLane / sky130 跑 RTL→GDS（对齐 asic-flow-lab）
-- [ ] 资源占用与频率写回 README
+- [x] LibreLane / sky130 RTL→GDS（见 [sm4-asic-flow-lab](https://github.com/beginnerof/sm4-asic-flow-lab)）：**0.343 mm² / 70k cells / timing clean / 0 DRC** @ 25 MHz
+- [ ] 更高频率重跑（setup slack 仍有约 5 ns 余量）
